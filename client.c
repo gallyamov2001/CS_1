@@ -55,4 +55,5 @@ int main(int argc, char *argv[]) {
 
     Close_fd(client_fd);
     Close_fd(server_fd);
+    remove(client_fifo);
 }
